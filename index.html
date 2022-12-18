@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/styles/normalize.css" />
+    <link rel="stylesheet" href="./assets/styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap" rel="stylesheet" />
+
+    <style>
+      body {
+        display: flex;
+      }
+      .left {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 50%;
+      }
+      .left__logo {
+        position: absolute;
+        width: 10vw;
+        left: 2%;
+        top: 5%;
+      }
+      .info__title {
+        font-weight: bold;
+        font-size: 3.75em;
+        margin-left: 10%;
+        margin-top: 10%;
+      }
+      .info__description {
+        font-family: "Roboto Slab", serif;
+        font-size: 1.25em;
+        font-weight: bolder;
+        margin-left: 10%;
+        margin-top: 10px;
+      }
+      .info__buy-button {
+        border: 0;
+        background: transparent;
+        width: 30%;
+        margin-left: 10%;
+        margin-top: 30px;
+        cursor: pointer;
+      }
+      .info__button-img {
+        width: 100%;
+      }
+      .nav {
+        display: flex;
+        justify-content: space-around;
+        margin-left: 5%;
+      }
+      .nav__item {
+        font-family: "Roboto Slab", serif;
+        font-weight: bolder;
+        color: #5222d0;
+      }
+      .right__basket-button {
+        border: 0;
+        background: transparent;
+        position: absolute;
+        width: 8vw;
+        top: 4%;
+        right: 5%;
+        cursor: pointer;
+      }
+      .right__basket-img {
+        width: 100%;
+      }
+      .right__img {
+        width: 90%;
+        margin-top: 10%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <section class="left">
+      <img class="left__logo" src="./assets/images/logo.png" alt="logo" />
+      <div class="info">
+        <h1 class="info__title">
+          ВИРТУАЛЬНАЯ <br />
+          РЕАЛЬНОСТЬ <br />
+          БЕЗ ПРОВОДОВ
+        </h1>
+        <p class="info__description">
+          Лучшее, что случалось с виртуальным миром <br />
+          в реальности. Новый компактный шлем <br />
+          без проводов и дорогих компьютеров.
+        </p>
+        <button class="info__buy-button"><img class="info__button-img" src="./assets/images/button-buy.png" /></button>
+      </div>
+      <div class="nav">
+        <a class="nav__item" href="...">Возможности</a>
+        <a class="nav__item" href="...">Где купить</a>
+        <a class="nav__item" href="...">Доставка</a>
+        <a class="nav__item" href="...">Помощь</a>
+      </div>
+    </section>
+    <section class="right">
+      <button class="right__basket-button">
+        <img class="right__basket-img" src="./assets/images/button-cart.png" alt="basket" />
+      </button>
+      <img class="right__img" src="./assets/images/pic.png" alt="girl" />
+    </section>
+  </body>
+</html>
